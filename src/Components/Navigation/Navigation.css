@@ -1,0 +1,19 @@
+#main-footer {
+    display: flex;
+    justify-content: space-evenly;
+    background: #F5F5F5;
+    color: #555;
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+    position:fixed;
+    bottom:0;
+    flex-wrap: wrap;
+}
+#main-footer img {
+height: 30px;
+width:30px;
+}

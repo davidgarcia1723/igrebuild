@@ -1,0 +1,129 @@
+#header {
+    display: flex;
+    border-bottom: solid black 1px;
+    color: #555;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
+    animation: moveDown 0.5s ease-in-out;
+    /* font-style: "https://fonts.googleapis.com/css?family=Montserrat&display=swap"; */
+}
+#header h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    display:block;
+    height: 8vh;
+    margin-left: 2vh;
+    border-radius: 20px;
+}
+.insta{
+    display:block;
+}
+
+.headWrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80px;
+    background-color: white;
+
+}
+
+
+.animation{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    animation: moveDown 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+/* ANIMATION MOVEDOWN  */
+@keyframes moveDown {
+    from {
+      transform: translateY(-5rem);
+    }
+    to {
+      transform: translateY(0rem);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(360deg);
+    }
+    100% {
+      transform: rotateY(0rem);
+    }
+  }
+
+
+
+
+
+/* ADD TO SEPERATE COMPONENT MODULE */
+  /* CSS FOR THE SEARCH INPUT */
+
+
+  /* testing search */
+  /* #searchContainer{
+    margin: 100px auto;
+    width: 300px;
+    height: 50px;
+  }
+
+  .searchWrapper{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+  } */
+
+  .searchWrapper input#search{
+    width: 300px;
+    height: 50px;
+    background: #F5F5F5;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 45px;
+    border-radius: 5px;
+    /* IF YOU WOULD RATHER IT BE ROUNDED  */
+    /* border-radius: 2rem !important; */
+   
+  /* ANIMATION */
+    -webkit-transition: background .55s ease;
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+  }
+
+  /* ICON IN SEARCH BAR STYLING
+  .searchWrapper .searchIcon{
+    position: absolute;
+    top: 50%;
+    margin-left: 10px;
+    margin-top: 5px;
+    z-index: 1;
+    color: #4f5b66;
+  } */
+
+  /* HOVER EFFECT */
+  .searchWrapper input#search:hover, 
+  .searchWrapper input#search:focus, 
+  .searchWrapper input#search:active{
+    color: #ff6884;
+    background-color: transparent;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+  }

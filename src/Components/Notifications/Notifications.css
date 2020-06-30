@@ -1,0 +1,57 @@
+.notifs-container{
+    padding: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.notifs{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.notifs li{
+    margin-top: 60px;
+}
+
+.notifs li i{
+    width: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.notifs li i:after{
+    content: '';
+    width: 40px;
+    height: 1px;
+    position: absolute;
+    background-color: grey;
+    margin-top: 15px;
+    z-index: -1;
+}
+
+.notifs:after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: grey;
+    position: absolute;
+    top: 4px;
+    left: 15px;
+    z-index: -1;
+}
+
+.notifs li div{
+    margin-left: 50px;
+    margin-top: -20px;
+    border: 1px solid grey;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+}

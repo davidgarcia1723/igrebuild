@@ -1,0 +1,90 @@
+/*Stories*/
+.storyContainer {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style: none;
+  margin-left : 20%;
+  margin-right: 20%;
+  justify-content: space-evenly;
+  height: 130px;
+}
+
+.storyAvatar{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+.storyAvatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.storyAvatar p {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+/*Posts*/
+  .Post {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    margin-bottom: 60px;
+    margin-left : 20%;
+    margin-right: 20%;
+  }
+  .postUser {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+  }
+  .postAvatar{
+    width: 30px;
+    height: 30px;
+  }
+  .postAvatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  .postUsername {
+    margin-left: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+  }
+  .postImage-bg {
+    background-color: #efefef;
+  }
+  .postImage {
+    display: block;
+    width: 100%;
+  }
+  .postIcons img {
+    padding: 5px;
+  }
+  .postCaption {
+    padding: 15px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .storyContainer{
+      overflow: auto;
+      white-space: nowrap;
+      flex-direction: column;
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .storyContainer{
+      overflow: auto;
+      white-space: nowrap;
+      flex-direction: column;
+    }
+  }
+

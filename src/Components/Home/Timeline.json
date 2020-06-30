@@ -1,0 +1,112 @@
+[
+    {
+        "type" : "upload",
+        "alt" : "dog",
+        "avatar" : "img/Timeline/Avatar/Puppy.jpg",
+        "username" : "charlottepups",
+        "upload" : "img/Timeline/Uploads/Doggo.jpeg",
+        "caption" : "10/10 Good Boy!",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "dj",
+        "avatar" : "https://ca.slack-edge.com/T5VCY49B3-UTG5L64H0-9170e531f49a-512",
+        "username" : "vleezy",
+        "upload" : "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+        "caption" : "Cool.",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "shadowclonesam",
+        "avatar" : "img/Timeline/Avatar/Sam.png",
+        "username" : "hokagesam",
+        "upload" : "img/Timeline/Uploads/ShadowCloneSam.png",
+        "caption" : "Rasengan!",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "clowndavid",
+        "avatar" : "img/Timeline/Avatar/CoolDavid.PNG",
+        "username" : "ssgarcia",
+        "upload" : "img/Timeline/Uploads/ClownDavid.png",
+        "caption" : "Hair tied chilling with no make-up on",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "r2h-ad",
+        "avatar" : "img/Explore/Avatar/Road2Hire.png",
+        "username" : "roadtohire -- Ad",
+        "upload" : "img/Timeline/Uploads/R2H-Ad.JPG",
+        "caption" : "Road to Hire Pathways is excited to share an internship opportunity for Rising Seniors! For more information, visit the link in our bio or our website Roadtohire.org.",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "wavecheck",
+        "avatar" : "img/Timeline/Avatar/Quinton.png",
+        "username" : "quintonthegoat",
+        "upload" : "img/Timeline/Uploads/WaveCheck.jpg",
+        "caption" : "WAVE CHECK",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "brokenbones",
+        "avatar" : "img/Timeline/Avatar/Kyle.png",
+        "username" : "kantonio",
+        "upload" : "img/Timeline/Uploads/Everyday.png",
+        "caption" : "I was born with glass bones and paper skin. Every morning I break my legs, and every afternoon I break my arms. At night, I lie awake in agony until my heart attacks put me to sleep.",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "jaronpain",
+        "avatar" : "img/Timeline/Avatar/Jaron.png",
+        "username" : "jarontoogreene",
+        "upload" : "img/Timeline/Avatar/Jaron.png",
+        "caption" : "“Those who do not understand true pain can never understand true peace.”",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "guitar",
+        "avatar" : "img/Explore/Avatar/IssacTalley.png",
+        "username" : "issac_talley20",
+        "upload" : "img/Timeline/Uploads/Guitar.jpg",
+        "caption" : "I haven't played this in a while!",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    },
+    {
+        "type" : "upload",
+        "alt" : "beach",
+        "avatar" : "img/Explore/Avatar/KellyLam.png",
+        "username" : "lamfitness2020",
+        "upload" : "img/Timeline/Uploads/Beach.jpg",
+        "caption" : "Hey everyone! What are your plans for the weekend? I for one can't wait to be back on the beach!",
+        "like" : "img/Like.png",
+        "comment" : "img/Comment.png",
+        "share" : "img/Share.png"
+    }
+]

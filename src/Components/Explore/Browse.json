@@ -1,0 +1,44 @@
+[
+    {
+        "type" : "grid",
+        "alt" : "PC",
+        "avatar" : "img/Explore/Avatar/IssacTalley.png",
+        "username" : "issac_talley20",
+        "upload" : "img/Explore/Uploads/PC.jpg"
+    },
+    {
+        "type" : "grid",
+        "alt" : "ManUtdLogo",
+        "avatar" : "img/Explore/Avatar/ManchesterUnited.png",
+        "username" : "manchesterunited",
+        "upload" : "img/Explore/Uploads/Rashford.jpg"
+    },
+    {
+        "type" : "grid",
+        "alt" : "MealPrep",
+        "avatar" : "img/Explore/Avatar/KellyLam.png",
+        "username" : "lamfitness2020",
+        "upload" : "img/Explore/Uploads/MealPrep.jpeg"
+    },
+    {
+        "type" : "grid",
+        "alt" : "BLM",
+        "avatar" : "img/Explore/Avatar/Road2Hire.png",
+        "username" : "roadtohire",
+        "upload" : "img/Explore/Uploads/R2H.png"
+    },
+    {
+        "type" : "grid",
+        "alt" : "RedVentures",
+        "avatar" : "img/Explore/Avatar/RV.png",
+        "username" : "redventures",
+        "upload" : "img/Explore/Uploads/RedVentures.png"
+    },
+    {
+        "type" : "grid",
+        "alt" : "BLM",
+        "avatar" : "img/Explore/Avatar/Apple.png",
+        "username" : "apple",
+        "upload" : "img/Explore/Uploads/Apple.png"
+    }
+]

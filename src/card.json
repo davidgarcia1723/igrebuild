@@ -1,0 +1,79 @@
+{
+    "Post": [
+        {
+            "id": "1",
+            "name": "David",
+            "image": "/images/",
+            "description": "Cookies in different colors",
+            "price": 5.75,
+            "availableSizes": [
+                "6",
+                "24",
+                "30"
+            ]
+        },
+        {
+            "id": "2",
+            "name":  "Quinton",
+            "image": "/images/",
+            "description":"Xmas tree theme cookies",
+            "price": 5.25,
+            "availableSizes": [
+                "6",
+                "30"
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Ja'Ron",
+            "image": "/images/",
+            "description": "Easter themed cookies",
+            "price": 4.00,
+            "availableSizes": [
+                "6",
+                "12",
+                "18",
+                "24"
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Vlad",
+            "image": "/images/cookie_9.jpg",
+            "description": "Cookies shaped as hearts",
+            "price": 5.75,
+            "availableSizes": [
+                
+                "6",
+                "12"
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Kyle",
+            "image": "/images/cookie_10.jpg",
+            "description": "Emoji shaped cookies",
+            "price": 5.99,
+            "availableSizes": [
+                "6",
+                "12",
+                "18",
+                "24"
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Sam",
+            "image": "/images/cookie_12.jpg",
+            "description": "Crispy and delicious cookies",
+            "price": 5.75,
+            "availableSizes": [
+                "6",
+                "12",
+                "18",
+                "24",
+                "30"
+            ]
+        }
+    ]
+}
