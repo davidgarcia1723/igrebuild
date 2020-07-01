@@ -61,8 +61,8 @@ class Home extends React.Component {
                         <p>issac_talley20</p>
                     </div>    
                     <div className="storyAvatar">
-                        <img src="img/Explore/Avatar/Road2Hire.png" alt="r2h"></img>
-                        <p>roadtohire</p>
+                        <img src="img/Timeline/Avatar/NappyChef.png" alt="nappychef"></img>
+                        <p>nappychef</p>
                     </div>    
                 </div>
                 <br />

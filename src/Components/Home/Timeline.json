@@ -1,11 +1,11 @@
 [
     {
         "type" : "upload",
-        "alt" : "dog",
-        "avatar" : "img/Timeline/Avatar/Puppy.jpg",
-        "username" : "charlottepups",
-        "upload" : "img/Timeline/Uploads/Doggo.jpeg",
-        "caption" : "10/10 Good Boy!",
+        "alt" : "food",
+        "avatar" : "img/Timeline/Avatar/NappyChef.png",
+        "username" : "nappychef",
+        "upload" : "img/Timeline/Uploads/NappyChefFood.png",
+        "caption" : "The ORIGINAL Salmon Cheesesteak | Jerk Mac and Henny Hot Wings | Seafood Crack | Vanilla Chicken n Waffles 🔥🔥 You can’t get this NOWHERE else in the city !! #IfItAintNappyItsCrappy #HottestChefInTheCity",
         "like" : "img/Like.png",
         "comment" : "img/Comment.png",
         "share" : "img/Share.png"
