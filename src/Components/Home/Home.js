@@ -70,6 +70,8 @@ class Home extends React.Component {
                     {Timeline.map( (Upload, index) => {
                         if ( type === "upload" ) {
                             return <Post post = {Upload} />
+                        } else {
+                            return "false"
                         }
                     })}
                 </div>

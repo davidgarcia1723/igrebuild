@@ -44,6 +44,8 @@ class Profile extends React.Component {
                     {Upload.map( (Post, index) => {
                         if ( type === "grid" ) {
                             return <Grid grid = {Post} />
+                        } else {
+                            return "false"
                         }
                     })}
                 </div>

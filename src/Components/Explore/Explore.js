@@ -28,6 +28,8 @@ class Explore extends React.Component {
                     {Browse.map( (Post, index) => {
                         if ( type === "grid" ) {
                             return <Grid grid = {Post} />
+                        } else {
+                            return "false"
                         }
                     })}
                 </div>
