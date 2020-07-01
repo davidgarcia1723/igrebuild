@@ -44,21 +44,21 @@ class InstaLanding extends React.Component {
                 <input type="text" name="username" placeholder="Username" />
                 <input type="password" name="password" placeholder="Password" />
                 <br />
-                {/* <NavLink className="form-btn" exact={true} to="/Home"> */}
                 {/* <form action="" onSubmit={ (e) => {
                     this.handleButton(e)
                 }}></form> */}
+                <NavLink className="form-btn" exact={true} to="/Home">
                     <button className="form-btn" type="submit">Log in</button>
-                    {/* </NavLink> */}
+                </NavLink>
                 <br />
                 <span className="separator">Or</span>
-                <a className="facebook-login" href="#">
+                <a className="facebook-login" href="/">
                     <i className="fa fa-facebook-square"></i> Log in with Facebook
                 </a>
-                <a className="password-reset" href="#">Forgot password?</a>
+                <a className="password-reset" href="/">Forgot password?</a>
             </form>
             <div className="sign-up">
-                Don't have an account? <a href="#">Sign up</a>
+                Don't have an account? <a href="/">Sign up</a>
             </div>
             <div className="get-the-app">
                 <span>Get the app.</span>

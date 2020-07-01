@@ -11,34 +11,34 @@ class InstaLandingFooter extends React.Component {
                 <nav className="footer-nav">
                    <ul>
                        <li>
-                           <a href="#">About us</a>
+                           <a href="/">About us</a>
                        </li>
                        <li>
-                       <NavLink  exact={true} to="/Contact"><a href="#">Support</a></NavLink>
+                       <NavLink  exact={true} to="/Contact"><a href="/">Support</a></NavLink>
                        </li>
                        <li>
-                           <a href="#">Api</a>
+                           <a href="/">Api</a>
                        </li>
                        <li>
-                           <a href="#">Jobs</a>
+                           <a href="/">Jobs</a>
                        </li>
                        <li>
-                           <a href="#">Privacy</a>
+                           <a href="/">Privacy</a>
                        </li>
                        <li>
-                           <a href="#">Terms</a>
+                           <a href="/">Terms</a>
                        </li>
                        <li>
-                           <a href="#">Directory</a>
+                           <a href="/">Directory</a>
                        </li>
                        <li>
-                           <a href="#">Profiles</a>
+                           <a href="/">Profiles</a>
                        </li>
                        <li>
-                           <a href="#">Hashtags</a>
+                           <a href="/">Hashtags</a>
                        </li>
                        <li>
-                           <a href="#">Languages</a>
+                           <a href="/">Languages</a>
                        </li>
                         </ul>
                         <div className="copyright-notice">
