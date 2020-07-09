@@ -37,6 +37,17 @@ const stories = [
 			subheading: 'Posted 5h ago',
 			profileImage: 'img/Timeline/Avatar/David.png'
 		}
+	},
+	{
+		url: 'img/Timeline/Avatar/KH3.jpeg',
+		seeMore: ({ close }) => (
+			<div>Hello</div>
+		),
+		header: {
+			heading: 'David Garcia',
+			subheading: 'Posted 3h ago',
+			profileImage: 'img/Timeline/Avatar/David.png'
+		}
     }
 	// {
 	// 	url:
