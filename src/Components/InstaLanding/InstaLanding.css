@@ -122,8 +122,7 @@ body{
 .badges{
     width: 100%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 .badges img{
     max-width: 14rem;
@@ -134,7 +133,7 @@ body{
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     .phone-app-demo{
         display:none;
     }
@@ -154,8 +153,11 @@ body{
     .footer-nav ul li{
         margin-bottom: 1rem;
     }
+    .container {
+        width: 100%
+    }
 }
-@media (max-width: 450px){
+@media (max-width: 375px){
     #wrapper{
         padding-top: 0;
     }
@@ -163,6 +165,17 @@ body{
         background-color: transparent;
         border: none;
         padding: 0 2rem;
+    }
+    .phone-app-demo{
+        display:none;
+    }
+    .container {
+        width: 100%
+    }
+    .badges {
+        display: flex;
+        flex-direction: column;
+        padding-left: 80px;
     }
 }
 
