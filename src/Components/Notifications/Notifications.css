@@ -1,3 +1,9 @@
+.notifications {
+    text-align: center;
+    font-size: 5rem;
+    padding: 10px;
+}
+
 .notifs-container{
     padding: 20px;
     text-align: center;

@@ -11,6 +11,7 @@ class Notification extends React.Component {
                 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
                 <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet" />
                 <Header />
+                <h1 className="notifications">Notifications</h1>
                 <div class="notifs-container">
         <ul class="notifs">
             <li>
