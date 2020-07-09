@@ -10,7 +10,7 @@
 }
 #header h1 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 .logo{
     display:block;
@@ -20,6 +20,11 @@
 }
 .insta{
     display:block;
+}
+.logout {
+  padding-right: 5px;
+  position: absolute;
+  right: 0;
 }
 
 .headWrapper{
@@ -96,6 +101,7 @@
     color: #262626;
     padding-left: 45px;
     border-radius: 5px;
+    margin-bottom: 2rem;
     /* IF YOU WOULD RATHER IT BE ROUNDED  */
     /* border-radius: 2rem !important; */
    
@@ -126,4 +132,23 @@
     border-color: transparent;
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0);
+  }
+
+  @media only screen and (max-width: 400px) {
+    #header img {
+      height: 2rem;
+      width: 2rem;
+    }
+    .insta {
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    #header img {
+      height: 2rem;
+      width: 2rem;
+    }
+    .insta {
+      display: none;
+    }
   }

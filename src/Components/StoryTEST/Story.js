@@ -7,8 +7,8 @@ class Story extends Component {
 			<Stories
 				stories={stories}
 				defaultInterval={1500}
-				width={432}
-				height={768}
+				width={375}
+				height={667}
 			/>
 		);
 	}

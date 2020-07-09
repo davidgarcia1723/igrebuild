@@ -2,7 +2,7 @@ import React from "react";
 
 const Grid = ( {grid} ) => (
 
-      <article className="Post">
+      <article className="post">
         <header>
         </header>
         <div className="postImage">

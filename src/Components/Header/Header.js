@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { NavLink } from 'react-router-dom';
 
 class Header extends React.Component {
     render() {
@@ -22,7 +23,11 @@ class Header extends React.Component {
                                     <input type="search" id="search" placeholder="Search..." />
                                 </div>
                             </div>
+                            <div className="logout">
+                                <NavLink exact={true} to="/"><img src="img/Logout.png" alt="logout"></img></NavLink>
+                            </div>
                         </div>
+                        
                     </h1>
                 </div>
             </div>

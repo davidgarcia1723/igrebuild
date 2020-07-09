@@ -11,6 +11,8 @@
   margin-right: 20%;
   justify-content: space-evenly;
   height: 130px;
+  overflow: auto;
+  
 }
 
 .storyAvatar{
@@ -31,7 +33,7 @@
   text-align: center;
 }
 /*Posts*/
-  .Post {
+  .post {
     border-radius: 3px;
     border: 1px solid #e6e6e6;
     background-color: #fff;
@@ -77,6 +79,27 @@
       overflow: auto;
       white-space: nowrap;
       flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 115px;
+    }
+    .storyContainer img {
+      height: 5rem;
+      width: 5rem;
+    }
+    .storyAvatar p {
+      font-size: .5rem;
+    }
+    .post {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .postIcons img {
+      height: 2.25rem;
+      width: 2.25rem;
+    }
+    .postCaption {
+      padding: 10px;
     }
   }
 
@@ -85,6 +108,29 @@
       overflow: auto;
       white-space: nowrap;
       flex-direction: column;
+      margin-left: 5%;
+      margin-right: 5%;
+      height: 115px;
     }
+    .storyContainer img {
+      height: 5rem;
+      width: 5rem;
+    }
+    .storyAvatar p {
+      font-size: .5rem;
+    }
+    .post {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .postIcons img {
+      height: 2.25rem;
+      width: 2.25rem;
+    }
+    .postCaption {
+      padding: 10px;
+      font-size: .5rem;
+    }
+
   }
 
