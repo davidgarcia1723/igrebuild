@@ -53,13 +53,11 @@
   @media only screen and (max-width: 768px) {
     .profileTop{
       display: flex;
+      justify-content: center;
   }
   
   .pfp{
-      width: 700px;
-      height: 300px;
-      padding-left: 100px;
-      padding-right: 100px;
+      display: none;
   }
     
     .profilePost {
@@ -79,10 +77,7 @@
   }
   
   .pfp{
-      width: 600px;
-      height: 200px;
-      padding-left: 100px;
-      padding-right: 100px;
+      display: none
   }
 
   .username h1{
