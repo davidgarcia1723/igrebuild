@@ -133,7 +133,29 @@ body{
     margin-right: 1rem;
 }
 
-@media only screen and (max-width: 400px){
+/* MEDIA QUERIES */
+@media (max-width: 900px) {
+    .phone-app-demo{
+        display:none;
+    }
+    .form-data{
+        margin: 0 auto;
+    }
+    #wrapper > .container{
+        padding:0;
+    }
+    footer .container{
+        padding: 0 2rem;
+        text-align: center;
+    }
+    .footer-nav ul{
+        justify-content: center;
+    }
+    .footer-nav ul li{
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 450px){
     #wrapper{
         padding-top: 0;
     }
@@ -141,11 +163,6 @@ body{
         background-color: transparent;
         border: none;
         padding: 0 2rem;
-    }
-    .badges{
-        display: flex;
-        flex-wrap: wrap;
-        
     }
 }
 
