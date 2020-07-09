@@ -50,7 +50,7 @@
     width: 100%;
   }
 /* Media Queries*/
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 768px) {
     .profileTop{
       display: flex;
   }
@@ -72,7 +72,7 @@
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 375px) {
     .profileTop{
       display: flex;
       flex-wrap: wrap;

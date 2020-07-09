@@ -133,7 +133,7 @@ body{
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .phone-app-demo{
         display:none;
     }

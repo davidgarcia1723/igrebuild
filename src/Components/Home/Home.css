@@ -74,7 +74,7 @@
     padding: 15px;
   }
   
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 768px) {
     .storyContainer{
       overflow: auto;
       white-space: nowrap;
@@ -103,7 +103,7 @@
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 375px) {
     .storyContainer{
       overflow: auto;
       white-space: nowrap;

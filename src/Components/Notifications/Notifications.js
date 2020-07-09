@@ -55,8 +55,9 @@ class Notification extends React.Component {
                 <div>isacc_talley20 has started following you</div>
             </li>
         </ul>
+        
         </div>
-                <Navigation />
+              <Navigation />  
             </div>
         )
     };
